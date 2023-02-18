@@ -77,34 +77,3 @@ html {
     margin-top: 1rem;
     color: rgb(179, 179, 179);
 }
-
-/*recent-posts-wrapper*/
-
-.recent-posts-wrapper {
-    grid-column: 1 / 4;
-    grid-row: 3;
-}
-
-.recent-posts-title {
-    color: rgba(21, 150, 255, 0.863);
-    margin-bottom: 1rem;
-    font-size: 1rem;
-}
-
-.recent-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 1rem;
-    width: 55vw;
-}
-
-.post-title {
-    color:gray;
-    font-size: 1rem;
-}
-
-.post-category {
-    color: rgb(177, 171, 171);
-    font-weight: 600;
-    font-size: 1rem;
-}
