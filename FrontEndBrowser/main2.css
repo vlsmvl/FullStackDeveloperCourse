@@ -1,9 +1,12 @@
+html {
+    font-family: "lato", sans-serif;
+}
+
 .content-wrapper {
     display: grid;
     margin-top: 5em;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-    /*grid-template-rows: 1fr 1fr 1fr;*/
     justify-items: center;
     height: 100vh;
 }
@@ -46,6 +49,7 @@
 .recent-posts-wrapper {
     grid-column: 1 / 4;
     grid-row: 3;
+    width: 55vw;
 }
 
 .recent-posts-title {
