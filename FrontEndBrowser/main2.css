@@ -108,6 +108,34 @@ html {
 
 /*results-posts-wrapper*/
 
+
+
 .results-posts-wrapper {
     grid-row: 3;
+    grid-column: 1 / -1;
+    width: 55vw;
+}
+
+.post {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.category-name {
+    color: rgba(21, 150, 255, 0.863);
+}
+
+.result-post-links-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 3rem;
+    color: gray;
+    font-size: 1rem;
+}
+
+.result-post-title a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.4rem;
+    font-weight: 500;    
 }
