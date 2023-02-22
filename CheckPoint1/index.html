@@ -97,14 +97,21 @@
         .gridFive {
             display: grid;
             grid-template-rows: 1fr 1fr;
+            grid-template-columns: 2fr 1fr;
             background-color: rgba(128, 128, 128, 0.233);
             width: 500px;
-            height: 500px;
+        }
+
+        .g5child1 {
+            grid-row: 1;
+            grid-column: 1 / 3;
         }
 
         .g5child2 {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            grid-column: 1 / 3;
+            grid-row: 2;
         }
 
         .g5child2 img {
@@ -116,9 +123,11 @@
         /*Grid 6*/
 
         .gridSix {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
             width: 500px;
             background-color: rgba(128, 128, 128, 0.233);
-            font-weight: 600;
+            
         }
 
         .gridSix i {
@@ -131,7 +140,9 @@
         .gridSix p {
             font-family: 'Shantell Sans', cursive;
             color: black;
-
+            font-size: 15px;
+            text-align: center;
+            font-weight: 600;
         }
     </style>
 </head>
@@ -205,6 +216,8 @@
             <img src="images/wintertown.jpg" alt="wintertown" id="wintertown">
         </div>
     </div>
+
+    <div class="separador"> </div>
 
     <!---Grid 6-->
 
